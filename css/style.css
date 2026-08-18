@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .row1{
+    width: 1170px;
+    height: 100px;
+}
+.container .row1 .col1{
+    width: 470px;
+    height: 100px;
+    float: left;
+    background-color: #000;
+}
+.container .row1 .col2{
+    width: 700px;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+}
+/*Navigation Bar Starts Here*/
+.navbar{}
+.navbar ul{}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #dadada;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    color: #000;
+}
